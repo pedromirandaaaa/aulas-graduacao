@@ -1,18 +1,42 @@
 # 📝 Template: Proposta de Projeto
 
-> Use este template para documentar sua proposta de projeto para a disciplina
+# Sistema Web de Controle de Tarefas
+
+Projeto Full Stack desenvolvido com Node.js, Express, MongoDB e JavaScript.
+
+## Funcionalidades
+- Cadastro de tarefas
+- Edição de tarefas
+- Exclusão de tarefas
+- Listagem de tarefas
+- Marcação de tarefas concluídas
+
+## Tecnologias
+- Node.js
+- Express
+- MongoDB
+- HTML/CSS/JS
+
+## Como executar
+
+### Backend
+```bash
+npm install
+npm start
+
+Desenvolvimento de um Sistema Web de Controle de Tarefas para gerenciamento de atividades pessoais e organização de produtividade diária.
 
 ## 📋 Informações Básicas
 
 ### Nome do Projeto
-`[Digite o nome do seu projeto aqui]`
+`task organizer`
 
 ### Equipe
 | Nome | GitHub | Papel Principal |
 |------|--------|-----------------|
-| Nome 1 | @username1 | Frontend / Backend / Full Stack |
-| Nome 2 | @username2 | Frontend / Backend / Full Stack |
-| Nome 3 | @username3 | Frontend / Backend / Full Stack |
+| Luis Henrique Fernandes Rodrigues | @username1 | Frontend / Backend / Full Stack |
+| Nicolas dos Santos Correia | @username2 | Frontend / Backend / Full Stack |
+| Pedro Miranda | @username3 | Frontend / Backend / Full Stack |
 
 ### Link do Repositório
 `https://github.com/usuario/nome-do-projeto`
@@ -23,22 +47,22 @@
 
 ### 1. Descrição do Problema
 Descreva claramente o problema que seu projeto pretende resolver:
-- **Quem** enfrenta esse problema?
-- **Quando** esse problema ocorre?
-- **Por que** esse problema é importante?
-- **Qual** o impacto negativo desse problema?
 
-**Exemplo:**
-> *Idosos que vivem sozinhos frequentemente esquecem de tomar seus medicamentos nos horários corretos, o que pode levar a complicações graves de saúde. Cerca de 50% dos idosos não seguem corretamente suas prescrições médicas, resultando em internações evitáveis.*
+O projeto propõe o desenvolvimento de uma aplicação web Full Stack voltada ao gerenciamento de tarefas pessoais, permitindo que usuários organizem suas atividades diárias de maneira prática e eficiente.
+
+O sistema contará com funcionalidades de criação, edição, listagem e exclusão de tarefas, seguindo o padrão CRUD (Create, Read, Update e Delete). O objetivo principal é fornecer uma ferramenta simples, moderna e funcional para auxiliar usuários na organização de compromissos, estudos, trabalho e metas pessoais.
+
+A aplicação será desenvolvida utilizando tecnologias modernas do mercado, incluindo backend em Node.js com Express, banco de dados MongoDB e frontend responsivo em HTML, CSS e JavaScript.
+
 
 ### 2. Pesquisa de Soluções Existentes
 Liste soluções que já existem e explique suas limitações:
 
-| Solução Existente | Limitações | Como seu projeto é diferente |
-|-------------------|------------|------------------------------|
-| App X | Muito complexo para idosos | Interface simplificada e intuitiva |
-| App Y | Pago e caro | Gratuito e acessível |
-| App Z | Só para Android | Multiplataforma |
+Com o crescimento da demanda por produtividade e organização pessoal, sistemas de gerenciamento de tarefas tornaram-se ferramentas essenciais no cotidiano das pessoas.
+
+Muitos usuários possuem dificuldade em manter uma rotina organizada, controlar prazos e acompanhar atividades pendentes. Dessa forma, o desenvolvimento de um sistema de controle de tarefas apresenta relevância prática e acadêmica, permitindo a aplicação de conceitos de desenvolvimento Full Stack, banco de dados, APIs REST e organização de software.
+
+Além disso, o projeto possibilita a prática de metodologias de engenharia de software, versionamento de código com Git/GitHub e desenvolvimento de interfaces modernas e responsivas.
 
 ### 3. Público-Alvo
 - **Idade:** [faixa etária]
@@ -61,27 +85,20 @@ Descreva sua solução em 2-3 parágrafos. Foque em:
 
 ### 2. Funcionalidades Principais (MVP)
 
-Liste as 3-5 funcionalidades essenciais para o MVP:
-
-- [ ] **Funcionalidade 1**: [Nome]
-  - Descrição: [O que faz]
-  - Valor para usuário: [Por que é importante]
-
-- [ ] **Funcionalidade 2**: [Nome]
-  - Descrição: [O que faz]
-  - Valor para usuário: [Por que é importante]
-
-- [ ] **Funcionalidade 3**: [Nome]
-  - Descrição: [O que faz]
-  - Valor para usuário: [Por que é importante]
+* Cadastro de tarefas;
+* Edição de tarefas;
+* Exclusão de tarefas;
+* Marcação de tarefas como concluídas;
+* Listagem de tarefas cadastradas
+* Interface responsiva.
 
 ### 3. Funcionalidades Futuras (Pós-MVP)
 
-Funcionalidades que seriam interessantes mas não são essenciais:
-- [ ] Integração com farmácias
-- [ ] Lembretes de renovação de receitas
-- [ ] Gráficos de adesão ao tratamento
-
+* Sistema de login e autenticação;
+* Notificações de tarefas;
+* Integração com calendário;
+* Definição de prioridades;
+* Compartilhamento de tarefas.
 ---
 
 ## 🛠️ Especificações Técnicas
@@ -117,64 +134,78 @@ Funcionalidades que seriam interessantes mas não são essenciais:
 | **Hospedagem** | Vercel / Heroku / Railway | [Por que escolheu?] |
 | **Outras ferramentas** | [APIs, bibliotecas] | [Por que escolheu?] |
 
+Requisitos Funcionais
+
+Código
+
+Descrição
+
+RF01
+
+O sistema deve permitir cadastrar tarefas
+
+RF02
+
+O sistema deve listar tarefas cadastradas
+
+RF03
+
+O sistema deve permitir editar tarefas
+
+RF04
+
+O sistema deve permitir excluir tarefas
+
+RF05
+
+O sistema deve permitir marcar tarefas como concluídas
+
+RF06
+
+O sistema deve armazenar dados em banco de dados
+
 ### 3. Requisitos Não-Funcionais
 
-- **Performance**: [Ex: Carregar página inicial em menos de 2 segundos]
-- **Segurança**: [Ex: Autenticação JWT, HTTPS obrigatório]
-- **Usabilidade**: [Ex: Interface acessível seguindo WCAG 2.1]
-- **Escalabilidade**: [Ex: Suportar até 1000 usuários simultâneos]
+RNF01
+
+O sistema deve possuir interface responsiva
+
+RNF02
+
+O sistema deve apresentar boa usabilidade
+
+RNF03
+
+O sistema deve possuir organização modular
+
+RNF04
+
+O sistema deve utilizar API REST
+
+RNF05
+
+O sistema deve garantir persistência de dados
 
 ---
 
 ## 📅 Planejamento
 
-### Cronograma de 3 Meses
-
-#### Mês 1: Fundação (Semanas 1-4)
-- **Semana 1-2**: Setup e Planejamento
-  - [ ] Configurar repositório GitHub
-  - [ ] Definir estrutura de pastas
-  - [ ] Configurar ambiente de desenvolvimento
-  - [ ] Criar wireframes/protótipos
-  - [ ] Definir schema do banco de dados
-
-- **Semana 3-4**: Funcionalidade Base
-  - [ ] Implementar autenticação básica
-  - [ ] Criar estrutura do banco de dados
-  - [ ] Desenvolver telas principais (sem funcionalidades)
-  - [ ] Setup de APIs básicas
-
-#### Mês 2: Desenvolvimento (Semanas 5-8)
-- **Semana 5-6**: Funcionalidades Core
-  - [ ] Implementar Funcionalidade 1
-  - [ ] Implementar Funcionalidade 2
-  - [ ] Integração frontend-backend
-  - [ ] Testes básicos
-
-- **Semana 7-8**: Funcionalidades Adicionais
-  - [ ] Implementar Funcionalidade 3
-  - [ ] Refinamento de UI/UX
-  - [ ] Tratamento de erros
-  - [ ] Validações
-
-#### Mês 3: Finalização (Semanas 9-12)
-- **Semana 9-10**: Refinamento
-  - [ ] Correção de bugs
-  - [ ] Otimizações de performance
-  - [ ] Testes com usuários
-  - [ ] Ajustes baseados em feedback
-
-- **Semana 11**: Documentação
-  - [ ] README completo
-  - [ ] Documentação de API (se aplicável)
-  - [ ] Guia de instalação
-  - [ ] Manual do usuário
-
-- **Semana 12**: Apresentação
-  - [ ] Preparar slides
-  - [ ] Gravar demo
-  - [ ] Ensaiar apresentação
-  - [ ] Deploy final
+Etapa
+Período
+Levantamento de requisitos
+Semana 1
+Modelagem do sistema
+Semana 1
+Desenvolvimento Backend
+Semana 2
+Desenvolvimento Frontend
+Semana 3
+Integração do sistema
+Semana 4
+Testes e correções
+Semana 4
+Documentação final
+Semana 5
 
 ### Divisão de Responsabilidades
 
